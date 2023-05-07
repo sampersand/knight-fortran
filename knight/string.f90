@@ -6,7 +6,7 @@ USE shared
 IMPLICIT NONE
 
     TYPE string
-        INTEGER :: refcount = 1
+        INTEGER :: rc = 1
         CHARACTER(:), ALLOCATABLE :: str
     CONTAINS
         ! PROCEDURE :: free, run
